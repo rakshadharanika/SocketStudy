@@ -1,12 +1,12 @@
-# Ex.No:1a  			Study of Socket Programming
-
+### Ex.No:1 - a Study of Socket Programming
+## NAME : RAKSHA DHARANIKA V
+## REG NO : 212223230167
 ## Aim: 
 To perform a study on Socket Programming
 ## Introduction:
-
- 	Socket programming is a crucial aspect of network communication, allowing for data exchange between computers over a network. It forms the backbone of various networked applications, enabling communication between clients and servers. This study explores the fundamental concepts of socket programming, its use cases, and provides a practical example to demonstrate its implementation.
+Socket programming is a crucial aspect of network communication, allowing for data exchange between computers over a network. It forms the backbone of various networked applications, enabling communication between clients and servers. This study explores the fundamental concepts of socket programming, its use cases, and provides a practical example to demonstrate its implementation.
 ## Understanding Socket Programming:
-	Socket programming involves the use of sockets, which serve as endpoints for communication. A socket is identified by an IP address and a port number, and it facilitates data transfer between a client and a server. The two main types of sockets are Stream Sockets, which provide a reliable, connection-oriented communication, and Datagram Sockets, which are connectionless and suitable for scenarios where reliability is less critical.
+Socket programming involves the use of sockets, which serve as endpoints for communication. A socket is identified by an IP address and a port number, and it facilitates data transfer between a client and a server. The two main types of sockets are Stream Sockets, which provide a reliable, connection-oriented communication, and Datagram Sockets, which are connectionless and suitable for scenarios where reliability is less critical.
 ## Key Concepts in Socket Programming:
 1.Sockets
 •	A socket is a software representation of a communication endpoint in a network.
@@ -33,7 +33,7 @@ To perform a study on Socket Programming
 
 ## Server-Side Operations:
 
-•	Servers create a socket using socket() and bind it to a specific IP address and port using bind().
+•       Servers create a socket using socket() and bind it to a specific IP address and port using bind().
 •	They then listen for incoming connections with listen() and accept connections with accept().
 •	Once a connection is establi
 •	shed, servers can send and receive data using send() and recv().
@@ -54,7 +54,7 @@ Socket programming finds applications in various domains, including web developm
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 
 ## Program
-``
+```
 NAME   : RAKSHA DHARANIKA V
 REF NO : 212223230167
 DEP    :   AIDS
@@ -82,7 +82,7 @@ client_socket.sendall(b"Hello from Client!")
 data = client_socket.recv(1024)  
 print(f"Server says: {data.decode()}")  
 client_socket.close()
-
+```
 ## output
 # server:
 
