@@ -1,6 +1,6 @@
-### Ex.No:1 - a Study of Socket Programming
-## NAME : RAKSHA DHARANIKA V
-## REG NO : 212223230167
+# Ex.No:1 - a Study of Socket Programming
+### NAME : RAKSHA DHARANIKA V
+### REG NO : 212223230167
 ## Aim: 
 To perform a study on Socket Programming
 ## Introduction:
@@ -59,7 +59,7 @@ NAME   : RAKSHA DHARANIKA V
 REF NO : 212223230167
 DEP    :   AIDS
 ```
-# Server code:
+### Server code:
 ```
 import socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -73,7 +73,7 @@ print(f"Client says: {data.decode()}")
 conn.sendall(b"Hello from Server!")  
 conn.close()
 ```
-# Client code:
+### Client code:
 ```
 import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -84,13 +84,13 @@ print(f"Server says: {data.decode()}")
 client_socket.close()
 ```
 ## output
-# server:
+### server:
 
 
 ![image](https://github.com/user-attachments/assets/6894d15e-ea95-4ed4-a8ee-eaa1bab1f169)
 
 
-# Client:
+### Client:
 ![image](https://github.com/user-attachments/assets/7f8dc496-4e8b-4917-95aa-df0a051f3963)
 
 ## Result:
